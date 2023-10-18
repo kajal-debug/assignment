@@ -1,0 +1,42 @@
+.parent{
+    background-color: #202052;
+    color: white;
+    height: 98vh;
+    padding: 5px;
+    position: relative;
+    /* margin-top: 0px; */
+}
+@media (max-width: 768px) {
+    .parent{
+        height: 122vh; 
+    }
+  }
+.child{
+    margin: 30px;
+    padding: 5px;
+}
+.child:hover {
+    background: linear-gradient(45deg, rgb(145 163 163), transparent);;
+    border-radius: 10px;
+    width: 85%;
+    padding: 8px;
+}
+.child.active{
+    background: linear-gradient(45deg, rgb(145 163 163), transparent);
+    border-radius: 10px;
+    width: 85%;
+    padding: 8px;  
+}
+.footer{
+    position: absolute;
+    bottom: 10px;
+    background:linear-gradient(45deg, rgb(145 163 163), transparent);
+    width: 85%;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.header{
+    text-align: center;
+}

@@ -1,0 +1,99 @@
+.menu:hover{
+    background-color: rgb(222, 228, 228);
+    border-radius: 10px;
+    padding: 5px;
+}
+.secondgrid{
+    margin-left: 30px;
+}
+.menui{
+    display: none !important;
+    /* visibility: hidden; */
+}
+.dollarparenticon{
+    width: 77px; 
+    border-radius: 45px;background: #c6e6c6;
+    height: 77px;
+    border-radius: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.orderparenticon{
+    width: 77px; 
+    border-radius: 45px;
+    background: #b3aaee;
+    height: 77px;
+    border-radius: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.balanceparenticon{
+    width: 77px; 
+    border-radius: 45px;
+    background: #bceeeb;
+    height: 77px;
+    border-radius: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.salesparenticon{
+    width: 77px; 
+    border-radius: 45px;background: #f3caf1;
+    height: 77px;
+    border-radius: 45px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.dollaricon{
+    color: green;
+    font-size: 39px !important;
+}
+.Ordersicon{
+    color: #4e69ee;
+    font-size:39px !important;    
+  
+}
+.Balanceicon{
+    color: #6067e7;
+    font-size: 39px !important;
+}
+.Salesicon{
+    color: #ec8ac7;
+    font-size: 39px !important;
+}
+.parentclass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.barstyle{
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 2px black;
+}
+.xaxis{
+    border: none;
+}
+.menubar{
+    display:"flex";
+    text-align:"center";
+}
+@media (max-width: 768px) {
+    /* Add your mobile-specific styles here */
+    .menubar {
+        margin: 10px;
+      /* Mobile styles for .your-element */
+    }
+    .menui{
+        display: block !important;
+        /* visibility: hidden; */
+    }
+    .secondgrid{
+        margin-left: 0px;
+    }
+  }
